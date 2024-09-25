@@ -1,7 +1,6 @@
 const inputElement = document.querySelector("#user_input");
 const dropdownMenu = document.querySelector(".dropdown-menu");
 const resultsList = document.querySelector(".results");
-const TOKEN = `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`;
 
 inputElement.addEventListener("input", async function () {
     try {
@@ -19,7 +18,6 @@ const searchProjects = async function (query) {
             {
                 method: "GET",
                 headers: {
-                    Authorization: `token ${TOKEN}`,
                     Accept: "application/vnd.github.v3+json",
                 },
             }
