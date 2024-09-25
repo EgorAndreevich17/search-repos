@@ -1,7 +1,7 @@
 const inputElement = document.querySelector("#user_input");
 const dropdownMenu = document.querySelector(".dropdown-menu");
 const resultsList = document.querySelector(".results");
-const TOKEN = `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`;
+const TOKEN = `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`;
 
 inputElement.addEventListener("input", async function () {
     try {
